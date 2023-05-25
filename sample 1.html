@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <script src="translation.js"></script>
+        <title>Pseudocode</title>
+        <script src="https://kit.fontawesome.com/7b56f060cf.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <header>
+                <button class="run-button" type="button" onclick="convert_to_python()">Run</button>
+                <hr class="divider" />
+                <button class="save-button">Save</button>
+            </header>
+            <div class="container">
+                <div class="textarea-wrapper" method="POST">
+                    <label for="pseudo">Pseudocode</label>
+                    <select class="selection-box" id="pseudo">
+                        <option value="english">Pseudocode</option>
+                        <option value="pseudocode">Python</option>
+                    </select>
+                    <textarea class="textarea" id="pseudocode" placeholder="Enter your pseudocode here..." rows="4" cols="50">PRINT ('Hello World')</textarea>
+                </div>
+                <div class="textarea-wrapper">
+                    <label for="python">Python</label>
+                    <select class="selection-box" id="python">
+                        <option value="python">Python</option>
+                        <option value="Pseudocode">Pseudocode</option>
+                    </select>
+                    <textarea class="textarea" id="pythonCode" placeholder="results" rows="6" cols="50" readonly></textarea>
+                </div>
+            </div>      
+            <div class="warning">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span class="warning-text">*Note: Please read through the information provided in the "What is Pseudocode?" section available in the menu bar to gain a comprehensive understanding of how to effectively use our website. <br><br>Kindly ensure that whenever you use the keywords OUTPUT, PRINT, DISPLAY, SHOW, READ, OBTAIN, and GET, you enclose the desired statement within single quotes (' '). This will ensure accurate representation and desired output.<br><br>
+                For example: OUTPUT ('Hello world')<br>Expected results: print('Hello world')<br><br>If you have any questions or encounter any issues while using our website, please contact us at the 'What is pseudocode?''. We value your feedback and are committed to continuously improving our services. We are here to help and ensure your satisfaction.<br><br> Thank you!</span>
+            </div>    
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="logo">
+                            <img src="Logo.png" alt="">
+                            <span class="nav-item">Pseudocode</span>
+                        </a>
+                    </li>
+                    <li><a href="meaning.html">
+                        <i class="fas fa-question"></i>
+                        <span class="nav-item">What is pseudocode?</span>
+                    </a></li>
+                    <li><a href="sample.html">
+                        <i class="fas fa-play"></i>
+                        <span class="nav-item">Sample</span>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-cloud-arrow-up"></i>
+                        <span class="nav-item">Import</span>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-gears"></i>
+                        <span class="nav-item">Setting</span>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
