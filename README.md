@@ -12,12 +12,14 @@ https://github.com/sievlong/pseudocode.io/assets/87659019/6c021dfc-40f2-4823-938
 Follow these steps to install:
 Linus and macOS:
 
-```bash
+```
+  bash sudo git clone https://github.com/sievlong/pseudocode.io.git
 ```
 
 Window:
 
-```bash
+```
+  bash git clone https://github.com/sievlong/pseudocode.io.git
 ```
 
 # Contact
